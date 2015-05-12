@@ -9,7 +9,7 @@
 #import "directionFetcher.h"
 
 @implementation directionFetcher
-@synthesize startLatitude, startLongitude, endLatitude, endLongitude;
+@synthesize startLatitude, startLongitude, endLatitude, endLongitude, saveLocation;
 
 -(void)getETA {
     

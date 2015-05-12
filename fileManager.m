@@ -17,7 +17,8 @@
     NSMutableString *currentStr = [[NSMutableString alloc]initWithContentsOfFile:saveLoc
                                                           encoding:NSUTF8StringEncoding
                                                              error:&err];
-    NSString *newStr = [NSString stringWithFormat:@"%@, %f\n", newDate, newTime];
+    NSLog(@"%@", saveLoc);
+    NSString *newStr = [NSString stringWithFormat:@"%@, %g\n", newDate, newTime];
     
     [currentStr appendString:newStr];
     [currentStr writeToFile:saveLoc
