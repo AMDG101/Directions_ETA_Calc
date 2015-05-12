@@ -1,0 +1,7 @@
+start_lat:[33.9425]
+start_long:[-118.4081]
+
+end_lat:[33.8090]
+end_long:[-117.9190]
+
+save_location:[/Users/nicholasrogers/desktop/etaFile.csv]
